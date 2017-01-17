@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B0BB62D1CEC4BE7520356B3496C291D449DB2516",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B0BB62D1CEC4BE7520356B3496C291D449DB2516" : 9223372036854775807,
+    "C3ECA66A8B45A03F9405F315F32417CFFC30586C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F1C59D8B-D4BA-4310-B80A-5F197D974344",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B0BB62D1CEC4BE7520356B3496C291D449DB2516" : "CalculatorA1\/",
+    "C3ECA66A8B45A03F9405F315F32417CFFC30586C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CalculatorA1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CalculatorA1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/margo-t\/simpleCalculatorApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B0BB62D1CEC4BE7520356B3496C291D449DB2516"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/margo-t\/iOSLabs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3ECA66A8B45A03F9405F315F32417CFFC30586C"
+    }
+  ]
+}
