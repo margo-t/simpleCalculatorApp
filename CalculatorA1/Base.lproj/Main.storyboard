@@ -67,6 +67,9 @@
                                 <state key="normal" title="÷">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onDivisionWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="idv-wN-t6d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UKk-jr-fGp">
                                 <rect key="frame" x="310.66666666666674" y="234.00000000000003" width="102.33333333333331" height="124.66666666666671"/>
@@ -75,6 +78,9 @@
                                 <state key="normal" title="×">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onMultiplicationWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2NJ-Tx-8ty"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvY-iU-zOP">
                                 <rect key="frame" x="310.66666666666674" y="359.66666666666674" width="102.33333333333331" height="124.33333333333331"/>
@@ -83,6 +89,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onSubstractionWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TDF-EK-O0g"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSe-uZ-LjJ">
                                 <rect key="frame" x="310.66666666666674" y="484.99999999999994" width="102.33333333333331" height="124.66666666666657"/>
@@ -91,6 +100,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onAdditionWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHh-KQ-wWb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b77-Ye-50r">
                                 <rect key="frame" x="310.66666666666674" y="610.66666666666652" width="102.33333333333331" height="124.33333333333337"/>
@@ -99,6 +111,9 @@
                                 <state key="normal" title="=">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onEqualWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0MN-La-LI0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJc-Qs-5CO">
                                 <rect key="frame" x="207.66666666666669" y="610.66666666666652" width="102.00000000000006" height="124.33333333333337"/>

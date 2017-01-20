@@ -30,14 +30,35 @@ class ViewController: UIViewController {
         case clear = "clear"
         }
 
-    
+    // Number touched Actions
     
     @IBAction func numberTouched(sender: UIButton){
         currentNumber += "\(sender.tag)"
         terminalView.text = currentNumber
     }
     
-    //@IBAction func onDivision
+    
+    // Operation Actions
+    
+    @IBAction func onAddition(sender: UIButton){
+        processOperation(operation: .addition)
+    }
+    
+    @IBAction func onSubstraction(sender: UIButton){
+        processOperation(operation: .substraction)
+    }
+    @IBAction func onMultiplication(sender: UIButton){
+        processOperation(operation: .multiplication)
+    }
+    @IBAction func onDivision(sender: UIButton){
+        processOperation(operation: .division)
+    }
+    
+    @IBAction func onEqual(sender: UIButton){
+        processOperation(operation: currentOperation)
+    }
+    
+    
     
     func processOperation(operation: Operation){
         
